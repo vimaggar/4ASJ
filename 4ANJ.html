@@ -10,7 +10,8 @@ body {
   align-items: center;
   font-size: 100px;
   font-family: sans-serif;
-  animation: color-change 5s infinite alternate, blink 1s infinite;
+  animation: color-change 5s infinite alternate;
+  overflow: hidden; /* Skryje přetečení textu */
 }
 
 @keyframes color-change {
@@ -21,14 +22,24 @@ body {
   100% { background-color: rgb(0,255,255); }
 }
 
+.container { /* Nový kontejner pro text */
+  position: relative; 
+  animation: blink 1s infinite; 
+}
+
+.text { /* Styly pro text */
+  position: relative; 
+  z-index: 1; /* Ujistí se, že text je nad pozadím */
+}
+
 @keyframes blink {
   50% { opacity: 0; }
 }
 </style>
 </head>
 <body>
-
-  AHOJ
-
+  <div class="container">
+    <div class="text">AHOJ</div>
+  </div>
 </body>
 </html>
