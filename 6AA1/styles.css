@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right, red, yellow, green, blue); /* Barevný přechod pozadí stránky */
+}
+
+table {
+    border-collapse: collapse; /* Sloučení okrajů buněk */
+    width: 80%;
+    margin: 20px auto; /* Centrovaní tabulky */
+    background-color: lightgray; /* Barevné pozadí tabulky */
+}
+
+th, td {
+    border: 1px solid black; /* Ohraničení buněk */
+    padding: 10px; /* Vnitřní odsazení buněk */
+    text-align: center; /* Zarovnání textu na střed */
+}
