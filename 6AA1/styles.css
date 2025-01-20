@@ -38,4 +38,5 @@ th, td {
     font-weight: bolder;
     background-color: blue;
     height: 10vh;
+    display: block;
   }
