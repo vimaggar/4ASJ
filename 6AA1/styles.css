@@ -18,6 +18,7 @@ th, td {
 .sloupce {
     width: 100%;
     height: auto;
+    display: flex;
 }
 
 .obrazek {
