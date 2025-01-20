@@ -15,8 +15,13 @@ th, td {
     text-align: center; /* Zarovnání textu na střed */
 }
 
-.obrazek {
+.sloupce {
     width: 100%;
+    height: auto;
+}
+
+.obrazek {
+    width: 33%;
     height: auto;
 }
 
