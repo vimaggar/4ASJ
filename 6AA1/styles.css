@@ -14,3 +14,13 @@ th, td {
     padding: 10px; /* Vnitřní odsazení buněk */
     text-align: center; /* Zarovnání textu na střed */
 }
+
+.obrazek {
+    width: 100%;
+    height: auto;
+}
+
+  img {
+    width: 100%;
+    height: auto;
+  }
